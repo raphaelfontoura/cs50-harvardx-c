@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "compile files..."
+echo "### Compiling files..."
 files=`ls *.c | grep -v 'cs50.c'`
 echo $files
 for file in $files
